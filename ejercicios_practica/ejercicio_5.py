@@ -12,13 +12,21 @@
 # --------------------------------
 # Aquí copiar la función "generar_invitados"
 # ya elaborada
-
+def generar_invitados():
+    lista_invitados = []
+    for i in range(3):
+        print("Ingrese nombre del invitado", i)
+        invitado = str(input())
+        lista_invitados.append(invitado)
+    return lista_invitados
 # --------------------------------
 
 # --------------------------------
 # Aquí copiar la función "ordenar"
 # ya elaborada
-
+def ordenar(lista):
+    lista_ordenada = sorted(lista)
+    return lista_ordenada
 # --------------------------------
 
 if __name__ == '__main__':
