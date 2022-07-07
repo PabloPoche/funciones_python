@@ -54,7 +54,7 @@ def lista_aleatoria (inicio, fin, cantidad):
     for i in range(cantidad):
         numero = random.randint(inicio, fin)
         lista_numeros_aleatorios.append(numero)
-     return(lista_numeros_aleatorios)
+    return(lista_numeros_aleatorios)
 
 
 # --------------------------------
